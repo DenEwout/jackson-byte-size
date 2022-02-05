@@ -8,6 +8,14 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/DenEwout/jackson-byte-size</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <jackson.version>2.13.0</jackson.version>
         <maven.compiler.source>17</maven.compiler.source>
